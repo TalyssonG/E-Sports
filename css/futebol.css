@@ -1,8 +1,27 @@
-.card-img-top{
-  width: 15rem;
-  
-  
+body {
+      background: linear-gradient(45deg, #f5c4ed, #eeb4e9, #f7c0fd, hsl(287, 31%, 85%), #fefcbf );
+      background-size: 300% 300%;
+      animation: colors 15s ease infinite;
+    }
 
+    @keyframes colors {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+
+
+
+.card-img-center{
+  width: 5rem;
+  
   }
 
 .container{
@@ -12,3 +31,20 @@
 .card-body{
   margin-bottom: 3rem ;
 }
+
+/* Footer */
+.rodape{
+
+  float:left;
+  padding: 3% 4%;
+  text-align: center;
+  
+  
+}
+
+.social-icons a{
+  font-size: 1.5rem;
+  margin-right: 3%;
+
+}
+

@@ -1,3 +1,6 @@
+* {
+  font-family: Inter;
+}
 .container {
   padding: 2rem;
 }
@@ -9,4 +12,21 @@
 
 .cards{
   margin-top: 2rem;
+}
+
+/* Footer */
+
+.rodape{
+  width:100%;
+  float:left;
+  padding: 3% 4%;
+  text-align: center;
+
+  
+}
+
+.social-icons a{
+  font-size: 1.5rem;
+  margin-right: 3%;
+
 }
