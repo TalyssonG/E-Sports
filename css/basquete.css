@@ -2,6 +2,10 @@
   font-family: Inter;
 }
 
+.nav-link{
+  font-size: 1.6rem;
+}
+
 .card-img-top{
   width: 15rem;
   }

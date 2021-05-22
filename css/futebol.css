@@ -1,28 +1,14 @@
-body {
-      background: linear-gradient(45deg, #f5c4ed, #eeb4e9, #f7c0fd, hsl(287, 31%, 85%), #fefcbf );
-      background-size: 300% 300%;
-      animation: colors 15s ease infinite;
-    }
-
-    @keyframes colors {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-
-
 
 
 .card-img-center{
-  width: 5rem;
+  width: 3rem;
+  
   
   }
+
+.nav-link{
+  font-size: 1.6rem;
+}
 
 .container{
   margin-top:4rem ;
