@@ -4,11 +4,16 @@
   
 }
 
+h1{
+  color: #272643;
+}
+
 body{
-  background-image: url();
+  background-color: #ffffff;
   background-position: 50% 70%;
   color: width;
-  font-family: Arial;
+  font-family:'Poppins', sans-serif;
+
 }
 
 input{
@@ -16,21 +21,28 @@ input{
   height: 55px;
   width: 400px;
   margin: 8px;
-  border-radius: 30px;
-  border: 1px solid black;
+  border-radius: 1rem;
+  border: 1px solid #272643;
   font-size: 16pt;
-  padding: 10px 20px;
+  padding: 8px 20px;
+
 }
+
 
 input#botao{
   display: block;
   height: 55px;
   width: 440px;
   margin: 8px;
-  border-radius: 30px;
-  border: 1px solid black;
+  border-radius: 20px;
+  border: #272643 solid;
   font-size: 16pt;
   padding: 10px 20px;
+}
+
+#botao:hover{
+  background-color: #dfebeb;
+  opacity: 90%;
 }
 
 div#corpo-form{
@@ -39,28 +51,21 @@ div#corpo-form{
 }
 
 div#aviso{
-  color: red;
+  
   text-align: center;
-  font-family: Arial;
+  font-family:'Poppins', sans-serif;
   font-size: 25px;
   width: 450px;
 }
 
 div#corpo-form h1{
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   padding: 20px;
 }
 
-div#corpo-form h3{
-  text-align: center;
-  font-size: 25px;
-  width: 450px;
-}
-
 a{
-  color: green;
-  width: 450px;
+  color: #2c698d;
   text-decoration: none;
   text-align: center;
   display: block;

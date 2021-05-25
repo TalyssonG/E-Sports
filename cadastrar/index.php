@@ -6,7 +6,9 @@ session_start();
 	<head>
 		<meta charset="utf-8">
 		<title>Cadastrar</title>	
-    <link rel = "stylesheet" href="CSS/cadastrar.css">
+    <link rel = "stylesheet" href="../css/cadastrar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap"
+  class="description" class="expense" rel="stylesheet">
 	</head>
 	<body>
 	  

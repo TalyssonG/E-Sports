@@ -4,11 +4,16 @@
   
 }
 
+
+h1{
+  color: #272643;
+}
+
 body{
-  background-image: url();
-  background-position: 50% 70%;
-  color: width;
-  font-family: Arial;
+ 
+  background-color:#fff;
+  
+  font-family:'Poppins', sans-serif;
 }
 
 input{
@@ -17,7 +22,7 @@ input{
   width: 400px;
   margin: 8px;
   border-radius: 30px;
-  border: 1px solid black;
+  border: 1px solid #272643;
   font-size: 16pt;
   padding: 10px 20px;
 }
@@ -31,6 +36,11 @@ input#botao{
   border: 1px solid black;
   font-size: 16pt;
   padding: 10px 20px;
+}
+
+#botao:hover{
+  background-color: #dfebeb;
+  opacity: 90%;
 }
 
 div#corpo-form{
@@ -48,12 +58,19 @@ div#aviso{
 
 div#corpo-form h1{
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px;
 }
 
+div#corpo-form h3{
+  text-align: center;
+  font-size: 25px;
+  width: 450px;
+}
+
 a{
-  color: green;
+  color: #2c698d;
+  width: 450px;
   text-decoration: none;
   text-align: center;
   display: block;
