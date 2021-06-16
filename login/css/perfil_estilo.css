@@ -1,0 +1,24 @@
+div#campos{
+  height: 600px;
+  background-color: white;
+  font-size: 20pt;
+  color: black;
+  font-family: Arial;
+}
+
+div#god{
+  font-size: 40px;
+  width: 450px;
+  margin: 150px auto 0px auto;
+}
+
+ h1{
+text-align: center;
+font-size: 50px;
+padding: 20px 10px;
+}
+
+div#botoes{
+  margin: 50px auto 0px auto;
+  font-size: 25px;
+}

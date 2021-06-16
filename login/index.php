@@ -1,5 +1,6 @@
 <?php
-session_start(); ?>
+session_start(); 
+?>
 
 <!DOCTYPE html>
 <html lang ="pt-br">
@@ -7,21 +8,19 @@ session_start(); ?>
 <head>
   <meta charset="utf-8">
   <title>Login</title>
-  <link rel="stylesheet" href="../css/login_estilo.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap"
-  class="description" class="expense" rel="stylesheet">
+  <link rel="stylesheet" href="../login/css/login_estilo.css">
+
 </head>
 <body>
-  
-
+        <h2><a href="../index.html">Página principal</a></h2>
          <div id="corpo-form">
-         <h1>Fazer login</h1>
+         <h1>Fazer Login</h1>
          
           <?php
           if (isset($_SESSION['nao_autorizado'])):
           ?>
           <div id="aviso" class="notification is-danger">
-           <p>
+           <p style="color: red">
               Usuário ou senha inválidos.
             </p>
           </div>
@@ -30,10 +29,9 @@ session_start(); ?>
           unset($_SESSION['nao_autorizado']);
           ?>
         
-      
             <form action="login.php" method="POST">
       
-        <input  name="usuario" type="text" placeholder="Seu usuário">
+        <input name="usuario" type="text" placeholder="Seu usuário">
                   
          <input name="senha" type="password" placeholder="Sua senha">
 
@@ -41,10 +39,10 @@ session_start(); ?>
          <input id="botao" type="submit" value="ENTRAR">
          
               
-        <a href="../cadastrar/index.php"> DESEJA SE CADASTRAR? </a>
+        <a id="redirec" href="../cadastrar/index.php"> DESEJA SE CADASTRAR? </a>
           
             </form>
             </div>
-        
+            
 </body>
 </html>

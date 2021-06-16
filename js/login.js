@@ -6,7 +6,7 @@ function customValidation(event) {
         field.setCustomValidity("Esse campo é obrigatório")
 }
 
-for (field of fields) {
+   for (field of fields) {
     field.addEventListener("invalid", customValidation)
 
 }

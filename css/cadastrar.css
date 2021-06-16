@@ -4,15 +4,20 @@
   
 }
 
-
 h1{
   color: #272643;
 }
 
-body{
- 
-  background-color:#fff;
+h2 a{
+  position: absolute;
+  float: left;
+  top: 5px;
+  margin-left:-8rem;
   
+ }
+
+body{
+  background-color:#fff;
   font-family:'Poppins', sans-serif;
 }
 
@@ -21,19 +26,21 @@ input{
   height: 55px;
   width: 400px;
   margin: 8px;
-  border-radius: 30px;
+  border-radius: 1rem;
   border: 1px solid #272643;
   font-size: 16pt;
-  padding: 10px 20px;
+  padding: 8px 20px;
+
 }
+
 
 input#botao{
   display: block;
   height: 55px;
   width: 440px;
   margin: 8px;
-  border-radius: 30px;
-  border: 1px solid black;
+  border-radius: 20px;
+  border: #272643 solid;
   font-size: 16pt;
   padding: 10px 20px;
 }

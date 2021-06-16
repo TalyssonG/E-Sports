@@ -1,10 +1,9 @@
 
+#img {
+  width:6rem;
+}
 
-.card-img-center{
-  width: 3rem;
-  
-  
-  }
+
 
 .nav-link{
   font-size: 1.6rem;
@@ -12,6 +11,7 @@
 
 .container{
   margin-top:4rem ;
+  
 }
 
 .card-body{
@@ -34,3 +34,25 @@
 
 }
 
+@media (min-width: 576px) { 
+  .card-img-top{
+    width: 20%;
+    min-width: 100px;
+   
+    }
+}
+
+
+@media (min-width: 768px) { 
+  .card-img-top{
+    width: 2rem;
+    
+    }
+}
+
+
+@media (min-width: 992px) { 
+}
+
+@media (min-width: 1200px) { 
+  }

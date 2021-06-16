@@ -1,19 +1,24 @@
 *{
   margin: 0px;
   padding: 0px;
-  
 }
 
 h1{
   color: #272643;
 }
 
+h2 a{
+  position: absolute;
+  float: left;
+  top: 5px;
+  margin-left: 15px;
+ }
+
 body{
   background-color: #ffffff;
   background-position: 50% 70%;
   color: width;
   font-family:'Poppins', sans-serif;
-
 }
 
 input{
@@ -25,7 +30,6 @@ input{
   border: 1px solid #272643;
   font-size: 16pt;
   padding: 8px 20px;
-
 }
 
 
